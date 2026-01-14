@@ -1,0 +1,11 @@
+After cleaning transform to add the following;
+a. Invoice trends; Year, Month, Quater
+b. Add Sales Column (Using M-Language Multiple fxn on Qunatity and Unit Price) - Value.Multiply([Quantity], [Unit Price])
+c. Reorder the coulmns
+d. Add a Profit Column(Using M-Language Operators fxn on Sales, Discount and Shipping Cost) - ([Sales] * [Discount] / 100) - ([Shipping Cost])
+
+Then start tackling the following objectives;
+- Identify sales trends across regions, products, and time ; Create a measure in the Query for Total Sales, Average Profit, and use the 'Query table' to solve the problem
+- Detect top-performing products and underperforming areas
+
+Create measure for freq of shipment (count) and other KPI's
